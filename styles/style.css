@@ -1,0 +1,163 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* common style */
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* header style */
+.products {
+    display: flex;
+    align-items: center;
+}
+
+.menu {}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+/* Influencer style */
+
+.container {
+    background-color: #FFFFFF;
+    width: 1047px;
+    padding: 100px;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.Influencer-Journey h2 {
+    font-size: 52px;
+}
+
+.link-button {
+    background: #E02C6D;
+    border-radius: 41px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.circle img {
+    width: 440px;
+    height: 414px;
+}
+
+/* logos style */
+.logos img {
+    margin-left: 30px;
+}
+
+/* Popular Collection style */
+
+.section-title {
+    font-size: 28px;
+    text-align: center;
+}
+
+.collection-details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+}
+
+.collection-menu {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.Collection-banner img {
+    width: 300px;
+    height: 256px;
+}
+
+.Collection-title {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.collection-rating {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.collection-rating p {
+    margin-left: 15px;
+    color:
+        #5E6366;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FB8200;
+}
+
+.fa-star.empty {
+    color:
+        #AEAEAE;
+}
+
+.collection-description {
+    font-size: 14px;
+}
+
+.more {
+    margin-top: 50px;
+    text-align: right;
+    color:
+        #E02C6D;
+}
+
+.more a {
+    text-decoration: none;
+    color:
+        #E02C6D;
+}
+
+/* Featured products */
+
+.gear img {
+    width: 404px;
+    height: 270px;
+    margin-right: 70px;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    padding: 5px;
+}
+
+.footer-details {
+    text-align: center;
+}
+
+.footer-title h2 {
+    color: white;
+    font-size: 24px;
+
+}
+
+.footer-title p {
+    font-size: 14px;
+    color: white;
+}
+
+.footer-logos {
+    color: white;
+}
