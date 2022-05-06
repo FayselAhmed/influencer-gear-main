@@ -11,12 +11,18 @@ body {
 .products {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.menu {}
+.menu .fa-magnifying-glass {
+    margin-right: 20px;
+    margin-left: 10px;
+}
 
 .menu a {
     text-decoration: none;
+    margin-left: 20px;
+    color: black;
 }
 
 
@@ -25,7 +31,7 @@ body {
 .container {
     background-color: #FFFFFF;
     width: 1047px;
-    padding: 100px;
+    padding: 50px;
 }
 
 .container-2 {
@@ -33,7 +39,7 @@ body {
 }
 
 .Influencer-Journey h2 {
-    font-size: 52px;
+    font-size: 50px;
 }
 
 .link-button {
@@ -129,7 +135,7 @@ body {
         #E02C6D;
 }
 
-/* Featured products */
+/* Featured products styles */
 
 .gear img {
     width: 404px;
@@ -137,7 +143,7 @@ body {
     margin-right: 70px;
 }
 
-/* footer */
+/* footer styles */
 .footer {
     background-color: black;
     padding: 5px;
